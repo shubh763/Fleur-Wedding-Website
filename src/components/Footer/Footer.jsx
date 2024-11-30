@@ -85,7 +85,7 @@ function Footer() {
             </ul>
           </div>
           <div style={{ marginTop: "9px" }}>
-            <p>© 2017 Onderneaction, All Rights Reserved</p>
+            <p>© 2017 Qode Interactive, All Rights Reserved</p>
           </div>
         </div>
       </div>
