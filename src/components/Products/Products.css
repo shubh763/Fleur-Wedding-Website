@@ -11,3 +11,7 @@
   .rating i {
     color: grey; 
   }
+.card img:hover{
+    color: white;
+    opacity: 0.8;
+  }
