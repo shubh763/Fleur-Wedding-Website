@@ -1,0 +1,8 @@
+.extra{
+    background: url('../../../public/assets/background.jpg');
+    display: flex; /* Enable Flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; /* Ensure text alignment */
+}
+

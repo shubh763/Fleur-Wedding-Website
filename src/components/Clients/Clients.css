@@ -1,0 +1,19 @@
+.img-fluid {
+    transition: transform 0.3s;
+  }
+  
+  .img-fluid:hover {
+    transform: scale(1.05);
+    color: black;
+    cursor: pointer;
+  }
+  
+  .client-item {
+    flex: 0 1 auto; /* Ensures proper sizing of flex items */
+    margin-bottom: 20px; /* Spacing between rows (if images wrap) */
+  }
+  
+  .d-flex {
+    gap: 20px; /* Adds consistent spacing between items */
+  }
+  

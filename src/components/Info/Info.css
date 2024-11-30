@@ -1,0 +1,91 @@
+/* Container for the entire Info section */
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Left Section */
+  .info-left {
+    flex: 1;
+    min-width: 300px; /* Ensures proper alignment on smaller screens */
+  }
+  
+  .info-left h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  .info-left p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    
+  }
+  
+  /* Right Section */
+  .info-right {
+    height: 70px;
+    flex: 1;
+    min-width: 300px;
+    margin-right: 109px;
+    margin-top: 73px;
+  }
+  
+  .about-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .about-skill {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    height: 50px
+  }
+  
+  .about-skill p {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+    flex-basis: 150px;
+  }
+  
+  .about-skill hr {
+    flex-grow: 1;
+    border: none;
+    height: 8px;
+    border-radius: 50px;
+    background: gray;
+    position: relative;
+  }
+  
+  .about-skill hr::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 65%; /* Adjust width for progress */
+    background: #212EA0;
+    border-radius: inherit;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .info-container {
+      flex-direction: column;
+    }
+  
+    .info-left, .info-right {
+      flex: 1;
+      min-width: unset;
+    }
+  }
+  

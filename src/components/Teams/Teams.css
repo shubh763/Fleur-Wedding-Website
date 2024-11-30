@@ -1,0 +1,19 @@
+.teams{
+    background: url('../../../public/assets/parallax-2.jpg');
+}
+.hr-light {
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .team-member {
+    margin-bottom: 30px;
+  }
+  
+  .social-icons .social-link {
+    color: black; /* Bootstrap primary color */
+    font-size: 11px;
+  }
+  
+  .social-icons .social-link:hover {
+    color: #0056b3; /* Darker shade on hover */
+  }

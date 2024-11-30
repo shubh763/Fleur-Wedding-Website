@@ -1,0 +1,69 @@
+.hamburger-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100%;
+    background-color: #f8f9fa;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    transform: translateX(0);
+    animation: slideIn 0.3s ease-in-out forwards;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .hamburger-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .hamburger-title {
+    font-size: 1.5rem;
+    color: #343a40;
+  }
+  
+  .close-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .hamburger-content {
+    padding: 20px;
+  }
+  
+  .hamburger-content h3 {
+    color: #495057;
+    margin-top: 20px;
+  }
+  
+  .hamburger-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .hamburger-content ul li {
+    margin: 5px 0;
+  }
+  
+  .instagram-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .instagram-item img {
+    width: 100%;
+  }
+  

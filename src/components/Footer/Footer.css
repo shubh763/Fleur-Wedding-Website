@@ -1,0 +1,112 @@
+.footer {
+    background-color: #3a3740;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .footer-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    flex: 1 1 calc(33.33% - 20px);
+    margin-right: 20px;
+  }
+  
+  .footer-column:last-child {
+    margin-right: 0;
+  }
+  
+  .footer h5 {
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  
+  .footer p {
+    color: #ccc;
+    margin-bottom: 20px;
+    opacity: 0.5;
+  }
+  
+  .footer form {
+    display: flex;
+  }
+  
+  .footer form input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid transparent;
+    background: transparent;
+  }
+  
+  .footer form button {
+    padding: 10px 20px;
+    background-color: #585361;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .instagram-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  
+  .footer-divider {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footer-links {
+    display: flex;
+  }
+  
+  .footer-brand {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footer-menu li {
+    display: inline;
+  }
+  
+  .footer-menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
